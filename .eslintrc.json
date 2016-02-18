@@ -104,7 +104,7 @@
     "no-labels": 2,
     "no-lone-blocks": 2,
     "no-loop-func": 2,
-    "no-magic-numbers": [ 0, {
+    "no-magic-numbers": [ 1, {
       "ignore": [0, 1, 2],
       "enforceConst": true,
       "detectObjects": true
@@ -204,9 +204,9 @@
     "func-style": [ 2, "declaration" ],
     "id-length": [ 2, {
       "min": 2,
-      "max": 20,
+      "max": 32,
       "properties": "always",
-      "exceptions": ["i"]
+      "exceptions": [ "i", "j", "k" ]
     } ],
     "id-match": [ 0,
       "^[A-Z]?[a-z]+([A-Z][a-z]+)*$",
@@ -272,7 +272,7 @@
       "numbers": true
     } ],
     "quotes": [ 2, "single", "avoid-escape" ],
-    "require-jsdoc": [ 0, {
+    "require-jsdoc": [ 1, {
       "require": {
         "FunctionDeclaration": true,
         "MethodDefinition": true,
