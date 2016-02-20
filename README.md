@@ -2,6 +2,7 @@
 
 - Update config to eslint version 2.1.0
 - Add eslint-plugin-import
+- Write `no-restricted-syntax` rule
 
 ## How to use
 
